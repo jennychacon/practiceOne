@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var products = new List<Products>();
-
+            //prueba
             ProductFixPrice objProductFixPrice = new ProductFixPrice(1, "leche", 2300M, .17f);
             ProductFixPrice objProductFixPrice2 = new ProductFixPrice(2, "pan", 1200M, .17f);
             ProductVariablePrice objProductVariablePrice = new ProductVariablePrice(3, "Mango tomy", "kilo", 5200M, 1.543f, 1f);
